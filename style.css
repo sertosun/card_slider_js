@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(125, 104, 143);
+}
+
+.container {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+.btn_container button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 50%;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  background-color: blueviolet;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.btn_container button:hover {
+  background-color: rgb(162, 105, 216);
+}
+
+.btn_container button:focus {
+  background-color: rgb(54, 18, 100);
+}
+
+.wrapper {
+  border: 1px solid rgb(34, 26, 42);
+  padding: 1rem;
+  /* width: 350px;
+    height: 400px; */
+  border-radius: 10px;
+  background-color: rgb(62, 55, 68);
+  position: relative;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#haus_container,
+#auto_container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+  align-items: center;
+  justify-content: center;
+  /* position: absolute; */
+}
+
+#haus_container {
+  display: none;
+}
+
+img {
+  width: fit-content;
+}
+
+.title {
+  border: none;
+  padding: 0.5rem;
+  color: white;
+  font-size: 0.8em;
+  font-weight: bold;
+  width: 100%;
+  margin: 1rem;
+  border-radius: 5px;
+  background-color: blueviolet;
+  text-align: center;
+}
